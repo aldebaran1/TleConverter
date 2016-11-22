@@ -1,0 +1,18 @@
+This Python programs calculates actual position of the choosen 
+satellite from TLE elemnts in to the Azimuth-Elevation-Radius 
+(AER) coordinate system.
+
+System variables, like reveiver's position in (lat, lon, alt), usage of the 
+transformation CS, WSG84 and the name of a satellite, have to the set in 
+inputs.yaml configuration file.
+
+Required libs:
+- math
+- yaml
+- ephem
+- urllib
+- linecache
+- numpy
+- pytz
+- datetime
+- sgp4        https://pypi.python.org/pypi/sgp4/

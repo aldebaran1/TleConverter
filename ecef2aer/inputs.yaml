@@ -1,0 +1,17 @@
+#Set receiver position parameters in lat, lon, alt
+# lat, lon parameters in degrees
+# alt parameter in meters
+input lat: 46.0580
+input lon: 14.5049
+input alt: 300
+
+#Set whether you want to use WSG84 error parameters in
+#calculations or not
+# set 1 for yes or 0 for no
+WSG84: 1
+
+#Satellite name
+satellite: ASTRA 3B
+#input file name: oem_matej.oem
+output file name: astra3b_160316
+
